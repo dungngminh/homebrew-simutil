@@ -4,13 +4,13 @@
 class Simutil < Formula
   desc "TUI application for launching Android Simulators / iOS Simulators"
   homepage "https://github.com/dungngminh/simutil"
-  version "0.0.2"
+  version "0.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dungngminh/simutil/releases/download/v0.0.2/simutil-macos-arm64.tar.gz"
-      sha256 "ed31591a8b73a83daa8cbff98b49f31881da79c161e7bda00885b5b0e6859f23"
+      url "https://github.com/dungngminh/simutil/releases/download/v0.0.3/simutil-macos-arm64.tar.gz"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
       def install
         bin.install "simutil-macos-arm64" => "simutil"
@@ -18,8 +18,8 @@ class Simutil < Formula
     end
 
     on_intel do
-      url "https://github.com/dungngminh/simutil/releases/download/v0.0.2/simutil-macos-x64.tar.gz"
-      sha256 "7c0800fd0dcc7d3e6db73c0089ef1351df89a5f9a5f03ac64e76c6c70f228615"
+      url "https://github.com/dungngminh/simutil/releases/download/v0.0.3/simutil-macos-x64.tar.gz"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
       def install
         bin.install "simutil-macos-x64" => "simutil"
