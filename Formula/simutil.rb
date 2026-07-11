@@ -4,13 +4,13 @@
 class Simutil < Formula
   desc "TUI application for launching Android Simulators / iOS Simulators"
   homepage "https://github.com/dungngminh/simutil"
-  version "0.6.2"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dungngminh/simutil/releases/download/v0.6.2/simutil-macos-arm64.tar.gz"
-      sha256 "5c9e5b3926bb1c461b608c49d2089624f994d20871e7b61fe124e2c91c2b9aac"
+      url "https://github.com/dungngminh/simutil/releases/download/v0.7.0/simutil-macos-arm64.tar.gz"
+      sha256 "629100f006503edc1c1ba7ecf4410218435645299e311bd006448396e159e24c"
 
       def install
         bin.install "simutil-macos-arm64" => "simutil"
@@ -18,8 +18,8 @@ class Simutil < Formula
     end
 
     on_intel do
-      url "https://github.com/dungngminh/simutil/releases/download/v0.6.2/simutil-macos-x64.tar.gz"
-      sha256 "a192012c2ed645db7ff309e45b5cd4638c86476c0c5235425ce6ca558725e71e"
+      url "https://github.com/dungngminh/simutil/releases/download/v0.7.0/simutil-macos-x64.tar.gz"
+      sha256 "18cc298cf412bbcf9b7c018ffa6d80078b81a26bfdb52b48c6f50b9378e52248"
 
       def install
         bin.install "simutil-macos-x64" => "simutil"
@@ -30,8 +30,8 @@ class Simutil < Formula
   on_linux do
     depends_on arch: :x86_64
 
-    url "https://github.com/dungngminh/simutil/releases/download/v0.6.2/simutil-linux-x64.tar.gz"
-    sha256 "7668a630ac21a4336e4c667a0469ba4e6b502d870838a62b3cad732053b1ed02"
+    url "https://github.com/dungngminh/simutil/releases/download/v0.7.0/simutil-linux-x64.tar.gz"
+    sha256 "8a1f0fe2a5a7f639f886abaf0deec016612895f57b066b570767fd4075a12424"
 
     def install
       bin.install "simutil-linux-x64" => "simutil"
