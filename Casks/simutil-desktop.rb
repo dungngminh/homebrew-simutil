@@ -1,6 +1,6 @@
 cask "simutil-desktop" do
-  version "0.4.0"
-  sha256 "1c167b3636ec819bcc5a4528854df6c4e28cc7887f7173feed0f88db25acf50e"
+  version "0.5.0"
+  sha256 "5091dbd953b0b7b1098cecd3bb3031e275e269cae30606b64e342ea2899f05dc"
 
   url "https://github.com/dungngminh/simutil/releases/download/app-v#{version}/SimUtil-macos.dmg"
   name "SimUtil"
